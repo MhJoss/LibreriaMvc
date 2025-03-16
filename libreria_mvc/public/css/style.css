@@ -1,0 +1,107 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4e1ff; /* Lila pastel claro */
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Título */
+h1 {
+    color: #6a1b9a; /* Lila oscuro */
+    text-align: center;
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+/* Tabla */
+table {
+    width: 90%;
+    max-width: 900px;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #a678d6; /* Lila medio */
+    color: white;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background: #f9e6ff; /* Lila pastel */
+}
+
+tr:hover {
+    background: #e1bee7; /* Lila más fuerte */
+    transition: 0.3s;
+}
+
+/* Botones */
+a, button {
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: inline-block;
+    margin: 5px;
+}
+
+a {
+    color: white;
+    background: #8e24aa; /* Morado */
+}
+
+a:hover {
+    background: #6a1b9a; /* Morado oscuro */
+}
+
+button {
+    border: none;
+    color: white;
+    background: #7b1fa2; /* Morado vibrante */
+    cursor: pointer;
+}
+
+button:hover {
+    background: #4a148c; /* Más oscuro */
+}
+
+/* Formulario */
+form {
+    background: white;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:focus {
+    border-color: #7b1fa2; /* Resaltar input con morado */
+    outline: none;
+}
