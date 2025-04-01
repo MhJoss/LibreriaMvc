@@ -75,7 +75,7 @@ Los **componentes** que forman parte del patrón de diseño <u>controlador princ
  7         ├─config 							← bibliotecas     
  8         │   └─database
            |─public
-		   |   └─ css← frontController retorna un arreglo con los elementos url
+	   |   └─ css← frontController retorna un arreglo 
  9         |    └─style.css   				← evita indexación del proyecto
  10        |     └─actualizarLibro.php
  				 └─agregarLibro.php
